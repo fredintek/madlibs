@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <nav>
+        <div class="left-logo">
+            <img src="{{url_for('static', filename='images/fk_logo1.jpg')}}">
+            <div class="logo">
+                <h4>Fredintek</h4>
+            </div>
+        </div>
+        <div class="madlibs">
+            <h2>MadLibs</h2>
+        </div>
+    </nav>
+
+    {%block content%}
+    {%endblock%}
+    <footer>
+        <div class="footer-content">
+            <h3>Fredintek</h3>
+            <p>We discuss Python and its functionalities</p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; 2021 fredintek. designed by <span>Alfred Arinze</span></p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="{{url_for('static', filename='app.js')}}"></script>
+</body>
+</html>

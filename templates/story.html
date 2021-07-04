@@ -1,0 +1,21 @@
+{%extends "layouts.html"%}
+{%block content%}
+<div class="story-page">
+    <div class="article">
+        <h1 class="header-trip">The Trip</h1>
+        <p>
+            <b>{{missing_words['name1']}}</b> and <b>{{missing_words['name2']}}</b> decided to travel to <b>{{missing_words['place']}}</b>.
+            They gather their <b>{{missing_words['plural_noun1']}}</b> and <b>{{missing_words['plural_noun2']}}</b> and put them in their <b>{{missing_words['adjective1']}}</b> <b>{{missing_words['vehicle']}}</b>.
+            An hour later their <b>{{missing_words['noun1']}}</b> exploded, They were stuck.
+            Luckily a(an) <b>{{missing_words['occupation']}}</b> named <b>{{missing_words['female_name']}}</b> passed by. She helped them fix their vehicle and
+            gave them a(an) <b>{{missing_words['adjective2']}}</b> <b>{{missing_words['noun2']}}</b> to help them. They finally arrived at their destination and had a great time...
+        </p>
+    </div>
+    <div class="btn">
+        <a href="{{url_for('home')}}">
+                << Back
+        </a>
+    </div>
+</div>
+
+{%endblock content%}

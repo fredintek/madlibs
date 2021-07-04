@@ -1,0 +1,72 @@
+{%extends "layouts.html"%}
+
+{%block content%}
+<section class="form-part">
+    <h1 class="header-trip">The Trip</h1>
+    <form action="{{url_for('story')}}" method='post'>
+        <div class="contain">
+            <div class="input-box">
+                <button class="btn randomize-button" num="1">Randomize</button>
+                <input type="text" name="name1" class="input-text" id="randomize1" required>
+                <span class="details">Name</span>
+            </div>
+            <div class="input-box">
+                <button class="btn randomize-button" num="2">Randomize</button>
+                <input type="text" name="name2" class="input-text" id="randomize2" required>
+                <span class="details">Name</span>
+            </div>
+           <div class="input-box">
+                <button class="btn randomize-button" num="3">Randomize</button>
+                <input type="text" name="place" class="input-text" id="randomize3" required>
+                <span class="details">Place</span>
+            </div>
+           <div class="input-box">
+                <button class="btn randomize-button" num="4">Randomize</button>
+                <input type="text" name="plural_noun1" class="input-text" id="randomize4" required>
+                <span class="details">Plural Noun</span>
+            </div>
+            <div class="input-box">
+                <button class="btn randomize-button" num="5">Randomize</button>
+                <input type="text" name="plural_noun2" class="input-text" id="randomize5" required>
+                <span class="details">Plural Noun</span>
+            </div>
+            <div class="input-box">
+                <button class="btn randomize-button" num="6">Randomize</button>
+                <input type="text" name="adjective1" class="input-text" id="randomize6" required>
+                <span class="details">Adjective</span>
+            </div>
+            <div class="input-box">
+                <button class="btn randomize-button" num="7">Randomize</button>
+                <input type="text" name="vehicle" class="input-text" id="randomize7" required>
+                <span class="details">Type Of Vehicle</span>
+            </div>
+            <div class="input-box">
+                <button class="btn randomize-button" num="8">Randomize</button>
+                <input type="text" name="noun1" class="input-text" id="randomize8" required>
+                <span class="details">Noun</span>
+            </div>
+            <div class="input-box">
+                <button class="btn randomize-button" num="9">Randomize</button>
+                <input type="text" name="occupation" class="input-text" id="randomize9" required>
+                <span class="details">Occupation</span>
+            </div>
+            <div class="input-box">
+                <button class="btn randomize-button" num="10">Randomize</button>
+                <input type="text" name="female_name" class="input-text" id="randomize10" required>
+                <span class="details">Female Name</span>
+            </div>
+            <div class="input-box">
+                <button class="btn randomize-button" num="11">Randomize</button>
+                <input type="text" name="adjective2" class="input-text" id="randomize11" required>
+                <span class="details">Adjective</span>
+            </div>
+            <div class="input-box">
+                <button class="btn randomize-button" num="12">Randomize</button>
+                <input type="text" name="noun2" class="input-text" id="randomize12" required>
+                <span class="details">Noun</span>
+            </div>
+        </div>
+        <button type="submit" class="story-btn">Go To Story</button>
+    </form>
+</section>
+{%endblock content%}

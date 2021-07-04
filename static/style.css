@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #B2003E;
+    font-family: Montserrat, sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #c1c1c3;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #3C85FA;
+    padding: 5px;
+}
+nav .left-logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+}
+.logo{
+    margin-left: 9px;
+}
+.form-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+.form-part h1{
+    margin-bottom: 5px;
+}
+.contain{
+    max-width: 700px;
+    width: 100%;
+    padding: 0px 30px;
+}
+form .contain .input-box{
+    margin: 20px;
+}
+form .contain .input-box input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+}
+.btn, a.btn{
+    display: inline-block;
+    background: #3C85FA;
+    padding: 3px;
+    margin: 0 0.3em 0.3em 0;
+    font-weight: 300;
+    text-align: center;
+    transition: all 0.2s;
+    border-radius: 10%;
+}
+a.btn:hover{
+    color: #000000;
+    background-color: #fff;
+}
+.story-btn a{
+    text-decoration: none;
+    color: white;
+}
+.form-part form .story-btn{
+    padding: 8px;
+    margin-left:30%; 
+    width: 200px;
+    background: #3C85FA;
+    border: none;
+    border-radius: 10%;
+    color: black;
+    margin-bottom: 10px;
+}
+footer{
+    margin-top: auto;
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    color: #fff;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+}
+.footer-bottom{
+    background: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.article{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+.article p{
+    text-align: left;
+    font-weight: 500;
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+}
+.story-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.story-page a{
+    text-decoration: none;
+    color: black;
+}
